@@ -28,7 +28,7 @@ func doSomethingCool(ctx context.Context) {
 }
 
 func go_context() {
-	fmt.Println("GO context tut")
+	fmt.Println("GO context tutorial")
 	ctx, cancel := context.WithTimeout(context.Background(), 2*time.Second)
 	defer cancel()
 	ctx = enrichContext(ctx)
